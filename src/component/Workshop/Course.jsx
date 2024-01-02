@@ -2,7 +2,7 @@ import knowledgeData from "./CourseData.js";
 export default function Course() {
   return (
     <div className="min-h-[70vh] flex-col bg-gray-200 w-full max-w-full flex items-center sm:px-5 lg:px-20 md:px-10 justify-center py-5">
-      <h1 className="text-5xl text-zinc-600 font-bold mb-5">Course Overview</h1>
+      <h1 className="text-5xl text-center text-zinc-600 font-bold mb-5">Course Overview</h1>
       <p className="text-md p-5 bg-gray-100 text-zinc-500   w-full md:max-w-5xl bg-Secondary shadow font-medium font-Poppins">
         Embark on a transformative journey with ‘LLM Unleashed’, a 5-day
         immersive workshop designed for students, professionals, and visionary
@@ -16,7 +16,7 @@ export default function Course() {
         {knowledgeData.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col  p-5 shadow-lg bg-white rounded"
+            className="flex flex-col shadow  p-5 md:shadow-lg bg-white rounded"
           >
             <h1 className="text-xl  font-bold text-zinc-700">
               {item.title}

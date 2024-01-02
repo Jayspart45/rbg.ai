@@ -5,7 +5,7 @@ export default function Section({ data }) {
       <h1 className="text-center font-Poppins capitalize font-bold text-zinc-700 text-2xl md:text-4xl my-10">
         {data.title}
       </h1>
-      <div className="max-w-9xl mx-auto grid-cols-1 md:grid-cols-3 grid my-10 gap-10">
+      <div className="max-w-5xl mx-auto grid-cols-1 md:grid-cols-3 grid my-10 gap-10">
         {data.data.map((item, index) => (
           <div key={index} className=" font-Poppins flex flex-col text-center">
             <img

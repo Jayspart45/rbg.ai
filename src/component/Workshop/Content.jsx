@@ -2,7 +2,7 @@ import courseContent from "./CourseDetail";
 export default function Content() {
   return (
     <div className="min-h-screen flex-col bg-Primary py-10 w-full max-w-full flex items-center sm:px-5 lg:px-20 md:px-10 justify-center">
-      <h1 className="text-5xl text-zinc-700 font-bold mb-10">Course Content</h1>
+      <h1 className="text-5xl text-zinc-700 font-bold mb-10 ">Course Content</h1>
       <ul className="grid md:grid-cols-2">
         {courseContent.map((item, index) => (
           <li
